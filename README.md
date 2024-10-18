@@ -1,3 +1,10 @@
+
+<p align="center">
+    <img src="man/figures/logo.png" alt="Logo" width="300" />
+</p>
+
+
+
 # Introduction
 
 The `MedDataSets` package provides an **extensive collection of datasets related to medicine, diseases, treatments, drugs, and public health**. It covers topics such as pharmacokinetics, drug effectiveness, vaccine trials, survival rates, infectious disease outbreaks, and medical treatments.
