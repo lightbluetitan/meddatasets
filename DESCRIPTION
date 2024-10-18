@@ -1,0 +1,31 @@
+Package: MedDataSets
+Type: Package
+Title: Comprehensive Medical, Disease, Treatment, and Drug Datasets
+Version: 0.1.0
+Maintainer: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
+Description: Provides an extensive collection of datasets 
+    related to medicine, diseases, treatments, drugs, and public health. It covers 
+    topics such as pharmacokinetics, drug effectiveness, vaccine trials, survival rates, 
+    infectious disease outbreaks, and medical treatments. Included datasets span various 
+    health conditions like AIDS, cancer, bacterial infections, COVID-19, and data on 
+    pharmaceuticals and vaccines. This package is a valuable resource for researchers, 
+    analysts, and healthcare professionals interested in medical and public health 
+    data analysis in R.
+License: GPL-3
+URL: https://github.com/lightbluetitan/meddatasets
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    ggplot2,
+    dplyr,
+    devtools,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Authors@R: person(given = c("Renzo", "Caceres"),
+                  family = "Rossi",
+                  role = c("aut", "cre"),
+                  email = "arenzocaceresrossi@gmail.com")
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
+VignetteBuilder: knitr

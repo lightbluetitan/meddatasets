@@ -1,0 +1,9 @@
+bibentry(
+  bibtype  = "Manual",
+  title    = "MedDataSets: Comprehensive Medical, Disease, Treatment, and Drug Datasets for R",
+  author   = "Renzo Caceres Rossi",
+  year     = 2024,
+  note     = "R package version 0.1.0",
+  url      = "https://github.com/lightbluetitan/meddatasets"
+)
+
