@@ -32,25 +32,7 @@ library(dplyr)
 
 The `MedDataSets` package provides an **extensive collection of datasets related to medicine, diseases, treatments, drugs, and public health**. It covers topics such as pharmacokinetics, drug effectiveness, vaccine trials, survival rates, infectious disease outbreaks, and medical treatments.
 
-This package is a valuable resource for researchers, analysts, and healthcare professionals interested in performing in-depth analyses of medical and public health data in R. The datasets include information on various health conditions like AIDS, cancer, bacterial infections, COVID-19, and data on pharmaceuticals and vaccines.
-
-## Installation
-
-To install and use the `MedDataSets` package, you can run the following functions in your R console or RStudio:
-
-```{r install}
-
-# Install MedDataSets right from the CRAN
-
-install.packages("MedDataSets")
-
-
-# You can install the development version of MedDataSets from GitHub:
-# install.packages("devtools")
-
-devtools::install_github("https://github.com/lightbluetitan/meddatasets")
-
-```
+This package is a valuable resource for researchers, analysts, and healthcare professionals interested in performing in-depth analyses of medical and public health data in R. The datasets include information on various health conditions like AIDS, cancer, bacterial infections, COVID-19, and data on pharmaceuticals and vaccines.All datasets included in the `MedDataSets` package have been sourced from the R ecosystem and other R packages, and the content has not been modified in any way.
 
 
 ## Dataset Suffixes
@@ -76,7 +58,7 @@ To demonstrate the use of datasets in `MedDataSets`, we'll create some visualiza
 
 ### Visualization of Tooth Growth
 
-```{r tooth}
+```{r tooth,eval=TRUE, message=FALSE, warning=FALSE}
 # Example: Visualizing tooth growth data
 ggplot(ToothGrowth_df, aes(x = dose, y = len, color = supp)) +
   geom_point(size = 3, alpha = 0.7) +
@@ -91,7 +73,7 @@ ggplot(ToothGrowth_df, aes(x = dose, y = len, color = supp)) +
 
 ### Visualization of Transplant Data
 
-```{r transplant}
+```{r transplant,eval=TRUE, message=FALSE, warning=FALSE}
 ggplot(transplant_tbl_df, aes(x = outcome)) +
   geom_bar(fill = "steelblue", alpha = 0.8) +
   labs(title = "Transplant Outcomes",
@@ -103,7 +85,7 @@ ggplot(transplant_tbl_df, aes(x = outcome)) +
 
 ### Visualization of mdeaths -  Monthly Deaths from Lung Diseases in the UK
 
-```{r mdeath_ts}
+```{r mdeath_ts,eval=TRUE, message=FALSE, warning=FALSE}
 # Crear un gráfico de serie de tiempo utilizando ggplot2
 # Convertir 'mdeaths_ts' en un data frame
 mdeaths_df <- data.frame(

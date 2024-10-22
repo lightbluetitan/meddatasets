@@ -7,7 +7,7 @@
 \title{MedDataSets: Comprehensive Medical, Disease, Treatment, and Drug Datasets}
 \description{
 {
-The MedDataSets package provides an extensive collection of datasets related to medicine, diseases, treatments, drugs, and public health It covers topics such as pharmacokinetics, drug effectiveness, vaccine trials, survival rates, infectious disease outbreaks, and medical treatments.
+The MedDataSets package provides an extensive collection of datasets related to medicine, diseases, treatments, drugs, and public health It covers topics such as drug effectiveness, vaccine trials, survival rates, infectious disease outbreaks, and medical treatments.
 }
 }
 \details{

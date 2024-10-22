@@ -3,14 +3,16 @@ Type: Package
 Title: Comprehensive Medical, Disease, Treatment, and Drug Datasets
 Version: 0.1.0
 Maintainer: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
-Description: Provides an extensive collection of datasets 
-    related to medicine, diseases, treatments, drugs, and public health. It covers 
-    topics such as pharmacokinetics, drug effectiveness, vaccine trials, survival rates, 
-    infectious disease outbreaks, and medical treatments. Included datasets span various 
-    health conditions like AIDS, cancer, bacterial infections, COVID-19, and data on 
-    pharmaceuticals and vaccines. This package is a valuable resource for researchers, 
-    analysts, and healthcare professionals interested in medical and public health 
-    data analysis in R.
+Description: Provides an extensive collection of datasets related to medicine, 
+    diseases, treatments, drugs, and public health. This package covers topics 
+    such as drug effectiveness, vaccine trials, survival rates, 
+    infectious disease outbreaks, and medical treatments. The included datasets 
+    span various health conditions, including AIDS, cancer, bacterial infections, 
+    and COVID-19, along with information on pharmaceuticals and vaccines. These 
+    datasets are sourced from the R ecosystem and other R packages, remaining 
+    unaltered to ensure data integrity. This package serves as a valuable 
+    resource for researchers, analysts, and healthcare professionals interested 
+    in conducting medical and public health data analysis in R.
 License: GPL-3
 URL: https://github.com/lightbluetitan/meddatasets
 Encoding: UTF-8

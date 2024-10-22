@@ -6,15 +6,10 @@ This package `MedDataSets` includes datasets sourced from various R packages rel
 
 ## Dataset Licensing Information:
 
-- **Indometh_df**: 
-  Originally Indometh from the datasets package, licensed under GPL-2 or GPL-3. The dataset name has been changed to 'Indometh_df' to indicate that this dataset is a data frame.
 
 - **Puromycin_df**: 
   Originally Puromycin from the datasets package, licensed under GPL-2 or GPL-3. The dataset name has been changed to 'Puromycin_df' to indicate that this dataset is a data frame.
    
-- **Theoph_df**: 
-  Originally Theoph from the datasets package, licensed under GPL-2 or GPL-3. The dataset name has been changed to 'Theoph_df' to indicate that this dataset is a data frame.
-  
   
 - **ToothGrowth_df**: 
   Originally ToothGrowth from the datasets package, licensed under GPL-2 or GPL-3. The dataset name has been changed to 'ToothGrowth_df' to indicate that this dataset is a data frame.

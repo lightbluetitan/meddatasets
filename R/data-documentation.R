@@ -1,6 +1,6 @@
 # MedDataSets - Comprehensive Medical, Disease, Treatment, and Drug Datasets
 # Version 0.1.0
-# Copyright (C) 2024 Renzo Cáceres Rossi
+# Copyright (C) 2024 Renzo Caceres Rossi
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -14,42 +14,6 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-
-
-#' Pharmacokinetics of Indomethacin
-#'
-#' The dataset name has been changed to 'Indometh_df' to avoid confusion with datasets from other
-#' packages in the R ecosystem and to follow the naming convention in the 'MedDataSets' package.
-#' The suffix '_df' indicates that this dataset is a data frame, distinguishing it both within the
-#' package and from similar datasets in other R packages. The original content of the dataset has not been
-#' modified in any way.
-#'
-#' This dataset contains pharmacokinetic data for Indomethacin, a nonsteroidal anti-inflammatory drug (NSAID).
-#' It includes concentration measurements over time for multiple subjects, allowing for the analysis of the drug's
-#' pharmacokinetics across individuals.
-#'
-#' @name Indometh_df
-#' @format A data frame with 66 observations and 3 variables:
-#' \describe{
-#'   \item{Subject}{Identifier for the subject (ordinal factor with 6 levels).}
-#'   \item{time}{Time since drug administration (numeric, in hours).}
-#'   \item{conc}{Indomethacin concentration (numeric, in mcg/ml).}
-#' }
-#' The dataset contains additional metadata:
-#' \describe{
-#'   \item{formula}{The formula representing concentration over time, grouped by subject: \code{conc ~ time | Subject}.}
-#'   \item{labels}{List containing labels for time and concentration:
-#'   \itemize{
-#'     \item{\code{x}: "Time since drug administration" (hr)}
-#'     \item{\code{y}: "Indomethacin concentration" (mcg/ml)}
-#'   }}
-#' }
-#' @source Pharmacokinetic study data for Indomethacin.
-#' @usage data(Indometh_df)
-#' @export
-load("data/Indometh_df.rda")
-NULL
 
 
 #' Reaction Velocity of an Enzymatic Reaction
@@ -80,36 +44,6 @@ NULL
 load("data/Puromycin_df.rda")
 NULL
 
-#' Pharmacokinetics of Theophylline
-#'
-#' The dataset name has been changed to 'Theoph_df' to avoid confusion with datasets from other
-#' packages in the R ecosystem and to adhere to the naming conventions within the 'MedDataSets' package.
-#' The suffix '_df' indicates that this dataset is a data frame, distinguishing it from other datasets
-#' within the package and from datasets in the broader R ecosystem. The original content of the dataset
-#' has not been modified in any way.
-#'
-#' This dataset contains pharmacokinetic data on the drug Theophylline, which is used to treat respiratory diseases.
-#' The dataset includes measurements of drug concentration over time after an oral dose of the drug.
-#'
-#' @name Theoph_df
-#' @format A data frame with 132 observations and 5 variables:
-#' \describe{
-#'   \item{Subject}{An ordered factor indicating the subject ID (12 levels).}
-#'   \item{Wt}{Weight of the subject in kilograms (numeric).}
-#'   \item{Dose}{Theophylline dose administered in milligrams (numeric).}
-#'   \item{Time}{Time since drug administration in hours (numeric).}
-#'   \item{conc}{Theophylline concentration in the blood in mg/L (numeric).}
-#' }
-#' The dataset includes additional metadata:
-#' \describe{
-#'   \item{x}{Time since drug administration, in hours (\code{hr}).}
-#'   \item{y}{Theophylline concentration in mg/L (\code{mg/L}).}
-#' }
-#' @source Experimental data on the pharmacokinetics of Theophylline.
-#' @usage data(Theoph_df)
-#' @export
-load("data/Theoph_df.rda")
-NULL
 
 #' The Effect of Vitamin C on Tooth Growth in Guinea Pigs
 #'
@@ -211,7 +145,7 @@ NULL
 #' Infertility after Spontaneous and Induced Abortion
 #'
 #' The dataset name has been changed to 'infert_df' to avoid confusion with other datasets from
-#' packages in the R ecosystem and to follow the naming conventions of the 'HealthDataSets' package.
+#' packages in the R ecosystem and to follow the naming conventions of the 'MedDataSets' package.
 #' The suffix '_df' indicates that this dataset is a data frame, helping to distinguish it from other
 #' datasets within the package and from those in the broader R ecosystem. The original content of the
 #' dataset has not been modified in any way.
@@ -241,7 +175,7 @@ NULL
 #' Monthly Deaths from Lung Diseases in the UK
 #'
 #' The dataset name has been changed to 'ldeaths_ts' to avoid confusion with other datasets from
-#' packages in the R ecosystem and to follow the naming conventions of the 'HealthDataSets' package.
+#' packages in the R ecosystem and to follow the naming conventions of the 'MedDataSets' package.
 #' The suffix '_ts' indicates that this dataset is a time series, helping to distinguish it from
 #' other datasets within the package and from those in the broader R ecosystem. The original content
 #' of the dataset has not been modified in any way.
@@ -263,7 +197,7 @@ NULL
 #' Monthly Deaths from Lung Diseases in the UK
 #'
 #' The dataset name has been changed to 'mdeaths_ts' to avoid confusion with other datasets from
-#' packages in the R ecosystem and to follow the naming conventions of the 'HealthDataSets' package.
+#' packages in the R ecosystem and to follow the naming conventions of the 'MedDataSets' package.
 #' The suffix '_ts' indicates that this dataset is a time series, helping to distinguish it from
 #' other datasets within the package and from those in the broader R ecosystem. The original content
 #' of the dataset has not been modified in any way.
@@ -285,7 +219,7 @@ NULL
 #' Australian AIDS Survival Data
 #'
 #' The dataset name has been changed to 'Aids2_df' to avoid confusion with other datasets from
-#' packages in the R ecosystem and to follow the naming conventions of the 'HealthDataSets' package.
+#' packages in the R ecosystem and to follow the naming conventions of the 'MedDataSets' package.
 #' The suffix '_df' indicates that this dataset is a data frame, helping to distinguish it from
 #' other datasets within the package and from those in the broader R ecosystem. The original content
 #' of the dataset has not been modified in any way.
@@ -314,7 +248,7 @@ NULL
 #' Diagnostic Tests on Patients with Cushing's Syndrome
 #'
 #' The dataset name has been changed to 'Cushings_df' to avoid confusion with other datasets from
-#' packages in the R ecosystem and to follow the naming conventions of the 'EndocrineDataSets' package.
+#' packages in the R ecosystem and to follow the naming conventions of the 'MedDataSets' package.
 #' The suffix '_df' indicates that this dataset is a data frame, helping to distinguish it from
 #' other datasets within the package and from those in the broader R ecosystem. The original content
 #' of the dataset has not been modified in any way.
@@ -338,7 +272,7 @@ NULL
 #' Level of GAG in Urine of Children
 #'
 #' The dataset name has been changed to 'GAGurine_df' to avoid confusion with other datasets from
-#' packages in the R ecosystem and to follow the naming conventions of the 'ChildHealthDataSets' package.
+#' packages in the R ecosystem and to follow the naming conventions of the 'MedDataSets' package.
 #' The suffix '_df' indicates that this dataset is a data frame, helping to distinguish it from
 #' other datasets within the package and from those in the broader R ecosystem. The original content
 #' of the dataset has not been modified in any way.
@@ -363,7 +297,7 @@ NULL
 #' Survival from Malignant Melanoma
 #'
 #' The dataset name has been changed to 'Melanoma_df' to avoid confusion with other datasets from
-#' packages in the R ecosystem and to follow the naming conventions of the 'CancerResearchDataSets' package.
+#' packages in the R ecosystem and to follow the naming conventions of the 'MedDataSets' package.
 #' The suffix '_df' indicates that this dataset is a data frame, helping to distinguish it from
 #' other datasets within the package and from those in the broader R ecosystem. The original content
 #' of the dataset has not been modified in any way.
@@ -395,7 +329,7 @@ NULL
 #' Diabetes in Pima Indian Women
 #'
 #' The dataset name has been changed to 'Pima_te_df' to avoid confusion with other datasets from
-#' packages in the R ecosystem and to follow the naming conventions of the 'HealthDataSets' package.
+#' packages in the R ecosystem and to follow the naming conventions of the 'MedDataSets' package.
 #' The suffix '_df' indicates that this dataset is a data frame, helping to distinguish it from
 #' other datasets within the package and from those in the broader R ecosystem. The original content
 #' of the dataset has not been modified in any way.
@@ -425,7 +359,7 @@ NULL
 #' Diabetes in Pima Indian Women
 #'
 #' The dataset name has been changed to 'Pima_tr_df' to avoid confusion with other datasets from
-#' packages in the R ecosystem and to follow the naming conventions of the 'HealthDataSets' package.
+#' packages in the R ecosystem and to follow the naming conventions of the 'MedDataSets' package.
 #' The suffix '_df' indicates that this dataset is a data frame, helping to distinguish it from
 #' other datasets within the package and from those in the broader R ecosystem. The original content
 #' of the dataset has not been modified in any way.
@@ -455,7 +389,7 @@ NULL
 #' Diabetes in Pima Indian Women
 #'
 #' The dataset name has been changed to 'Pima_tr2_df' to avoid confusion with other datasets from
-#' packages in the R ecosystem and to follow the naming conventions of the 'HealthDataSets' package.
+#' packages in the R ecosystem and to follow the naming conventions of the 'MedDataSets' package.
 #' The suffix '_df' indicates that this dataset is a data frame, helping to distinguish it from
 #' other datasets within the package and from those in the broader R ecosystem. The original content
 #' of the dataset has not been modified in any way.
