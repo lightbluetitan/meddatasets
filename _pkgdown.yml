@@ -1,0 +1,6 @@
+url: ~
+template:
+  bootstrap: 5
+
+# Favicon configuration
+favicon: docs/favicon.ico
